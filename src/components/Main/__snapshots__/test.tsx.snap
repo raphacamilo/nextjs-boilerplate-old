@@ -1,9 +1,22 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Main /> should render heading 1`] = `
-<main>
-  <h2>
-    React Avançado
-  </h2>
+<main
+  class="styles__Container-sc-18iqiom-0 hXuqza"
+>
+  <h1
+    class="styles__Title-sc-18iqiom-1 cqLqWN"
+  >
+    A Next.js Starter Pack
+  </h1>
+  <img
+    class="styles__Logo-sc-18iqiom-3 kiNPiC"
+    src="react.png"
+  />
+  <p
+    class="styles__Description-sc-18iqiom-2 jHqHJA"
+  >
+    Built with Reactjs, Styled Components and Jest.
+  </p>
 </main>
 `

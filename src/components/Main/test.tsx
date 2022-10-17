@@ -7,7 +7,7 @@ describe("<Main />", () => {
     const { container } = render(<Main />)
     expect(
       screen.getByRole("heading", {
-        name: /react avançado/i
+        name: /a next.js starter pack/i
       })
     ).toBeInTheDocument()
 
