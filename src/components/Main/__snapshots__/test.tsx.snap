@@ -1,20 +1,58 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Main /> should render heading 1`] = `
+.c0 {
+  width: 100%;
+  height: 100%;
+  background-color: #111;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.c1 {
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+.c3 {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.c2 {
+  width: 215px;
+  -webkit-animation: GLFYz 10s linear infinite;
+  animation: GLFYz 10s linear infinite;
+}
+
 <main
-  class="styles__Container-sc-18iqiom-0 hXuqza"
+  class="c0"
 >
   <h1
-    class="styles__Title-sc-18iqiom-1 cqLqWN"
+    class="c1"
   >
     A Next.js Starter Pack
   </h1>
   <img
-    class="styles__Logo-sc-18iqiom-3 kiNPiC"
+    class="c2"
     src="react.png"
   />
   <p
-    class="styles__Description-sc-18iqiom-2 jHqHJA"
+    class="c3"
   >
     Built with Reactjs, Styled Components and Jest.
   </p>
