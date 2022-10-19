@@ -1,10 +1,13 @@
 import { Container, Description, Logo, Title } from "./styles"
 
-const Main = () => (
+const Main = ({
+  title = "A Next.js Starter Pack",
+  description = "Built with Reactjs, Styled Components and Jest."
+}) => (
   <Container>
-    <Title>A Next.js Starter Pack</Title>
+    <Title>{title}</Title>
     <Logo src="react.png" />
-    <Description>Built with Reactjs, Styled Components and Jest.</Description>
+    <Description>{description}</Description>
   </Container>
 )
 
