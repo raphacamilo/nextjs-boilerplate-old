@@ -1,4 +1,5 @@
 import styled, { keyframes } from "styled-components"
+import Image from "next/image"
 
 const Rotate = keyframes`
   100%{
@@ -27,7 +28,6 @@ export const Description = styled.p`
   font-size: 1.2rem;
 `
 
-export const Logo = styled.img`
-  width: 215px;
+export const Logo = styled(Image)`
   animation: ${Rotate} 10s linear infinite;
 `
